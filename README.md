@@ -140,6 +140,10 @@ Hello, welcome to the speech-to-text system.
 
 ---
 
+## Screenshot:
+![Screenshot 2025-01-16 074142](https://github.com/user-attachments/assets/04a0775b-b317-4a68-b790-2a8ce1ae9983)
+
+
 ## *Conclusion*
 
 The Speech-to-Text System is a simple yet effective tool for transcribing audio files into text. It demonstrates the power of pre-trained models and speech processing libraries to solve real-world problems efficiently. While the current version supports basic functionality, it lays a strong foundation for more advanced features like multi-language support and real-time transcription in future iterations.
