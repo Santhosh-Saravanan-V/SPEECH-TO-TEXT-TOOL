@@ -1,18 +1,18 @@
 import speech_recognition as sr
 
-# Create a Recognizer instance
+# Creating a Recognizer for instance
 recognizer = sr.Recognizer()
 
-# Define the path to the audio file
-audio_file_path = "C:\\Users\\santhosh saravanan\\Downloads\\harvard.wav"  # Change to the actual file name
+# Defining the path for the audio file
+audio_file_path = "C:\\Users\\santhosh saravanan\\Downloads\\harvard.wav"  
 
 try:
-    # Open the audio file for processing
+    # Opening the audio files for processing
     with sr.AudioFile(audio_file_path) as source:
         print("Reading the audio file...")
-        audio_data = recognizer.record(source)  # Capture the entire content of the audio file
+        audio_data = recognizer.record(source)  # Capturing the entire content of the audio file
         
-        # Use Google's speech recognition API to transcribe the audio
+        # Using the Google's speech recognition API to transcribe the audio
         transcription = recognizer.recognize_google(audio_data)
         print("\nTranscription Result:\n", transcription)
 except FileNotFoundError:
